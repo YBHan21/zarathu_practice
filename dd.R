@@ -8,7 +8,7 @@ usethis::use_git_config(user.name = "Youngbin Han", user.email = "ybhan2016@gmai
 ## setting: permanent storage
 credentials::credential_helper_set("manager")                 # Windows
 credentials::credential_helper_set("osxkeychain")             # Mac
-credentials::credential_helper_set("store")                   # Linux
+credentials::credential_helper_set("store")                   # Rstudio Cloud
 
 ## create a personal access token for authentication:
 usethis::create_github_token() 
@@ -25,7 +25,7 @@ credentials::set_github_pat()
 
 #### 5. Verify settings ######################################################
 
-usethis::git_sitrep()
+
 
 ## Your username and email should be stated correctly in the output. 
 ## Also, the report shoud cotain something like:
