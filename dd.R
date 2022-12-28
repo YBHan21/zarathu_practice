@@ -25,6 +25,7 @@ credentials::set_github_pat()
 
 #### 5. Verify settings ######################################################
 
+a<-c(1,2,3)
 
 
 ## Your username and email should be stated correctly in the output. 
